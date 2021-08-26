@@ -27,3 +27,17 @@ x = 3
 Additionally, if you want for the value to show up, you can write the following:
 
 print (x)
+
+What are the four types of computational thinking?
+
+1. Decomposition
+ - Breaking down a problem into small parts.
+
+2. Patter recognition
+ - Spotting what different problems have in common.
+
+3. Abstraction
+ - Focusing on the parts that matter
+
+4. Algorithmic thinkning
+ - When generating steps to solve a problem.
