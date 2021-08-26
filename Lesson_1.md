@@ -18,8 +18,6 @@ int score = 3
   
  What types of variables can we use in Python?
 
-What types of variables can we use in Python?
-
 In Python, there are many data types you can use. For example, boolean, float, integer, and string. Furthermore, in Python, you do not need to declare the data type. For example, you can make a variable that looks like the following:
 
 x = 3
