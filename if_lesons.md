@@ -83,3 +83,16 @@ if -1<=(a-c)<=1 and -1<=(b-d)<=1:
 else:
     print("NO")
 ```
+
+## Chess board: Bishop's move
+```.py
+a = int(input("Please input the value of 'a'"))
+b = int(input("Please input the value of 'b'"))
+c = int(input("Please input the value of 'c'"))
+d = int(input("Please input the value of 'c'"))
+if abs (a-c) == abs (b-d):
+    print("YES")
+else:
+    print("NO")
+```
+
