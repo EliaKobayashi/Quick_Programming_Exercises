@@ -122,3 +122,14 @@ else:
     print("NO")
 ```
 
+## Chocolate bar
+```.py
+n = int(input("Please input the value of 'n'"))
+m = int(input("Please input the value of 'm'"))
+k = int(input("Please input the value of 'k'"))
+if k < n*m and ((k%n == 0) or (k%m == 0)):
+    print("YES")
+else:
+    print("NO")
+```
+
