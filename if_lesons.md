@@ -110,3 +110,15 @@ else:
     print("NO")
 ```
 
+## Chess board: Knight's move
+```.py
+a = int(input("Please input the value of 'a'"))
+b = int(input("Please input the value of 'b'"))
+c = int(input("Please input the value of 'c'"))
+d = int(input("Please input the value of 'd'"))
+if abs(a-c)==1 and abs(b-d)==2 or abs(a-c)==2 and abs(b-d)==1:
+    print("YES")
+else:
+    print("NO")
+```
+
