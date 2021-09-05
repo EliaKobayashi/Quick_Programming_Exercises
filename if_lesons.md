@@ -7,7 +7,7 @@ if Value_a < Value_b:
 else:
     print(Value_b)
 ``` 
-   
+![](1.1 picture.png)   
 ## Sign Function
 ```.py
 X = int(input("please enter the value for 'X' "))
