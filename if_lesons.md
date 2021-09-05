@@ -56,7 +56,7 @@ if a == c or b == d:
 else:
     print("NO")
 
-##Chess board: same color
+## Chess board: same color
 
 a = int(input("Please input the value of 'a'"))
 b = int(input("Please input the value of 'b'"))
@@ -70,3 +70,13 @@ else:
     print("NO")
 
 
+## Chess board: King move
+
+a = int(input("Please input the value of 'a'"))
+b = int(input("Please input the value of 'b'"))
+c = int(input("Please input the value of 'c'"))
+d = int(input("Please input the value of 'c'"))
+if -1<=(a-c)<=1 and -1<=(b-d)<=1:
+    print("YES")
+else:
+    print("NO")
