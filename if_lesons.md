@@ -9,7 +9,7 @@ else:
     
    
 ## Sign Function
-
+'''.py
 X = int(input("please enter the value for 'X' "))
 if X > 0:
     print("1")
@@ -17,7 +17,7 @@ elif X == 0:
     print("0")
 else: 
     print("-1")    
-    
+'''
     
 ## Minimum of three numbers
 
