@@ -96,3 +96,17 @@ else:
     print("NO")
 ```
 
+## Chess board: Queen's move
+```.py
+a = int(input("Please input the value of 'a'"))
+b = int(input("Please input the value of 'b'"))
+c = int(input("Please input the value of 'c'"))
+d = int(input("Please input the value of 'd'"))
+if a == c or b == d:
+    print("YES")
+elif abs (a-c) == abs (b-d):
+    print("YES")
+else:
+    print("NO")
+```
+
