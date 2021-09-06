@@ -18,7 +18,7 @@ elif X == 0:
 else: 
     print("-1")    
 ```
-    
+![](1.2_comp.png)     
 ## Minimum of three numbers
 ```.py
 Value_a = int(input("please input the value of 'a'"))
@@ -31,7 +31,7 @@ if Value_b > Value_a and Value_c > Value_a:
 if Value_a > Value_c and Value_b > Value_c:
     print(Value_c)
 ```    
- 
+![](1.3_comp.png)      
 ## Equal Numbers
 ```.py
 Value_a = int(input("please input the value of 'a'"))
@@ -44,7 +44,7 @@ elif Value_a == Value_b or Value_a == Value_c or Value_b == Value_c:
 else:
     print("0")
 ```  
-  
+![](1.4_comp.png)       
 ## Rook Move
 ```.py
 a = int(input("Please input the value of 'a'"))
@@ -56,8 +56,7 @@ if a == c or b == d:
 else:
     print("NO")
 ```
-
-
+![](1.5_comp.png)     
 ## Chess board: same color
 ```.py
 a = int(input("Please input the value of 'a'"))
@@ -71,7 +70,7 @@ elif (a + b) %2 != 0 and (c + d) %2 != 0:
 else:
     print("NO")
 ```
-
+![](1.6_comp.png)     
 ## Chess board: King move
 ```.py
 a = int(input("Please input the value of 'a'"))
@@ -83,7 +82,7 @@ if -1<=(a-c)<=1 and -1<=(b-d)<=1:
 else:
     print("NO")
 ```
-
+![](1.7_comp.png)     
 ## Chess board: Bishop's move
 ```.py
 a = int(input("Please input the value of 'a'"))
@@ -95,7 +94,7 @@ if abs (a-c) == abs (b-d):
 else:
     print("NO")
 ```
-
+![](1.8_comp.png)     
 ## Chess board: Queen's move
 ```.py
 a = int(input("Please input the value of 'a'"))
@@ -109,7 +108,7 @@ elif abs (a-c) == abs (b-d):
 else:
     print("NO")
 ```
-
+![](1.9_comp.png)     
 ## Chess board: Knight's move
 ```.py
 a = int(input("Please input the value of 'a'"))
@@ -121,7 +120,7 @@ if abs(a-c)==1 and abs(b-d)==2 or abs(a-c)==2 and abs(b-d)==1:
 else:
     print("NO")
 ```
-
+![](1.10_comp.png)     
 ## Chocolate bar
 ```.py
 n = int(input("Please input the value of 'n'"))
@@ -132,7 +131,7 @@ if k < n*m and ((k%n == 0) or (k%m == 0)):
 else:
     print("NO")
 ```
-
+![](1.11_comp.png)     
 ## Leap Year
 ```.py
 year = int(input("please input the year"))
@@ -141,3 +140,4 @@ if year%4 == 0 and year%100 != 0 or year%400 == 0:
 else:
     print("COMMON")
 ```
+![](1.12_comp.png)     
