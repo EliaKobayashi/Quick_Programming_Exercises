@@ -74,3 +74,15 @@ for i in range (n):
 print(a)
 ```
 ![](2.7_pic.png)
+## Adding Factorials
+### Given an integer n, print the sum 1!+2!+3!+...+n!.
+```.py
+num = int(input())
+a = 1
+b = 0
+for i in range (1, num+1):
+    a *= i
+    b += a
+print(b)
+```
+![](2.8_pic.png)
