@@ -86,3 +86,28 @@ for i in range (1, num+1):
 print(b)
 ```
 ![](2.8_pic.png)
+## Ladder
+### For given integer n ≤ 9 print a ladder of n steps. The k-th step consists of the integers from 1 to k without spaces between them.
+```.py
+n = int(input())
+for i in range(1, n+1):
+    if i == 1:
+        print(1, sep='', end='                  ')
+    elif i == 2:
+        print(1,2, sep='', end='                  ')
+    elif i == 3:
+        print(1,2,3, sep='', end='                  ')
+    elif i == 4:
+        print(1,2,3,4, sep='', end='                  ')
+    elif i == 5:
+        print(1,2,3,4,5, sep='', end='                  ')
+    elif i == 6:
+        print(1,2,3,4,5,6, sep='', end='                  ')
+    elif i == 7:
+        print(1,2,3,4,5,6,7, sep='', end='                  ')
+    elif i == 8:
+        print(1,2,3,4,5,6,7,8, sep='', end='                  ')
+    elif i == 9:
+        print(1,2,3,4,5,6,7,8,9, sep='', end='                  ')
+```
+![](2.9_pic.png)
