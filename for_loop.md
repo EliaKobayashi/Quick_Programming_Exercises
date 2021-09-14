@@ -111,3 +111,18 @@ for i in range(1, n+1):
         print(1,2,3,4,5,6,7,8,9, sep='', end='                  ')
 ```
 ![](2.9_pic.png)
+## Lost card
+### There was a set of cards with numbers from 1 to N. One of the card is now lost. Determine the number on that lost card given the numbers for the remaining cards.Given a number N, followed by N − 1 integers - representing the numbers on the remaining cards (distinct integers in the range from 1 to N). Find and print the number on the lost card.
+```.py
+n = int(input("Enter size of deck: "))
+cards = []
+for c in range (n):
+  cards.append(False)
+for c in range (n -1):
+  x = int(input("Enter the card number: "))
+  cards[x - 1] = True
+for index in range (len(cards)):
+  if cards[index] == False:
+    print(index + 1)
+```
+![](3.10_pic.png) 
