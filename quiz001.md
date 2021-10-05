@@ -1,5 +1,5 @@
 ## Create a function where there are two inputs. If one of them equals 20 or if both added together equal 20 output should be "TRUE". If not, output should be "FALSE".
-``.py
+```.py
 def makes20(A, B):
     if A == 20:
         answer = "TRUE"
