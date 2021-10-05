@@ -1,6 +1,7 @@
 ## Paolo's O's
 ```.py
 def mystery_box(word):
+
     '''
     Find how many O's are in the input
     '''
