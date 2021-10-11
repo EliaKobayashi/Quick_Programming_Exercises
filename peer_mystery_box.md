@@ -11,4 +11,4 @@ out = mystery_box("Paolo")
 print(out)
 
 ```
-![](hwpic1)
+![](hwpic1.png)
