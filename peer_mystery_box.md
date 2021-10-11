@@ -13,9 +13,10 @@ print(out)
 ```
 ![](hwpic1.png)
 ## Beril's move repeated letters
+
 ```.py
 def mystery_box(word1, word2):
-
+```
 ## Ryu's Time
 ```.py
 def mystery_box(hour1, minute1, hour2, minute2):
