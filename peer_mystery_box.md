@@ -16,7 +16,24 @@ print(out)
 
 ```.py
 def mystery_box(word1, word2):
+    counting1 = 0
+    counting2 = 0
+    for i in word1:
+        for a in word1:
+            if i == a:
+                counting1 += 1
+    for i in word2:
+        for a in word2:
+            if i == a:
+                counting2 += 1
+    if counting1 > counting2:
+        return word1
+    if counting1 < counting2:
+        return word2
+out = mystery_box("balloon", "pumpkin")
+print(out)
 ```
+![](hwpic3.png)
 ## Ryu's Time
 ```.py
 def mystery_box(hour1, minute1, hour2, minute2):
