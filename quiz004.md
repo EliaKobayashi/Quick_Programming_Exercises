@@ -16,4 +16,4 @@ def perfectN(n : int):
 output = perfectN(n = 6)
 print(output)
 ```
-![](quiz_pic04)
+![](quiz_pic004.png)
