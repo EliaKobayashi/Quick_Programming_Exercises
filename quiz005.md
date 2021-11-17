@@ -6,5 +6,5 @@ def tableM(number):
         print(f"{number} x {i} = {answer}\n")
 out = tableM(2)
 ```
-![](quizpic05.jpg)
-![](quizpic005.jpg)
+![](quizpic05.png)
+![](quizpic005.png)
