@@ -6,3 +6,4 @@ def letter(word : str):
         print(f"{i} -> {answer}")
 letter('hello')
 ```
+![](quiz_pic0.png)
