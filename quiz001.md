@@ -12,3 +12,4 @@ out = makes20(9,20)
 print(out)
 ```
 ![](quizpic2.png)
+![](flow_diagram1.png)
