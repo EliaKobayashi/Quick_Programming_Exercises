@@ -8,4 +8,4 @@ def CharacterSwap(input):
 out = CharacterSwap("ErrorsShould")
 print(out)
 ```
-![](quiz_pic16.png)
+![](quiz_pic16..png)
