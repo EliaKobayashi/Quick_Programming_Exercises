@@ -12,3 +12,4 @@ out = MaxAbs([-4, 5 , 6, -7])
 print(out)
 ```
 ![](quiz_pic08.png)
+![](flow_diagram8)
