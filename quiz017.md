@@ -14,3 +14,4 @@ out = traingle(5,6,3)
 print(out)
 ```
 ![](quiz_pic17.png)
+![](flow_diagram17)
