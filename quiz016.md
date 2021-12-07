@@ -1,3 +1,4 @@
+## For each pair of characters of an input String, swap every two characters. 
 ```.py
 def CharacterSwap(input):
     answer = ""
