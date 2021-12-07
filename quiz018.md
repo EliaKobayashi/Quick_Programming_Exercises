@@ -17,3 +17,4 @@ out = array([1,2,6,99,7])
 print(out)
 ```
 ![](quiz_pic18.png)
+![](flow_diagram18)
