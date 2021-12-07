@@ -1,4 +1,4 @@
-## quiz number 2
+## Given 2 numbers, A and B, Output TRUE if one of them is 20 or if their sum is 20.
 ```.py
 # find the difference between the largest and smallest input
 def largestDistance(n1,n2,n3):
