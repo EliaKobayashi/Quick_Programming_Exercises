@@ -1,3 +1,4 @@
+## Given an array of sorted integers, find the missing number.
 ```.py
 def missingNumber(list):
     answer  = 0
