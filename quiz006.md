@@ -11,3 +11,4 @@ out = MixStart('pix snacks')
 print(out)
 ```
 ![](quizpic006.png)
+![](flow_diagram6)
