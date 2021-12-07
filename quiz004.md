@@ -17,3 +17,4 @@ output = perfectN(n = 6)
 print(output)
 ```
 ![](quiz_pic004.png)
+![](flow_diagram4)
