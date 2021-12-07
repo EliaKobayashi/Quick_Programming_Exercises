@@ -11,4 +11,4 @@ out = reverseMode("100!000!111")
 print(out)
 ```
 ![](quiz_pic15.png)
-![](flow_diagram15)
+![](Flow_diagram15)
