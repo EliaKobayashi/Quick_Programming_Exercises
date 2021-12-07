@@ -1,3 +1,4 @@
+## Write a function that receives an integer N, and returns all its factors.  [HL] show also the addition of the factors show if the result is the same as N
 ```.py
 def perfectN(n : int):
     # Function to divide an integer to its factors
