@@ -8,3 +8,4 @@ def letter(word : str):
 letter('hello')
 ```
 ![](quiz_pic0.png)
+![](flow_diagram7)
