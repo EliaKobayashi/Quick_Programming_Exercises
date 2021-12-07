@@ -13,4 +13,4 @@ out = rangePattern(3)
 print(out)
 ```
 ![](quiz_pic03.png)
-![](flow_diagram3.jpeg)
+![](flow_diagram3)
