@@ -1,3 +1,4 @@
+## Given three ints, a b c, one of them is small, one is medium and one is large. Return true if the three values are evenly spaced, so the difference between small and medium is the same as the difference between medium and large. 
 ```.py
 def evenlySpaced (num1,num2,num3):
     a=num2-num1
