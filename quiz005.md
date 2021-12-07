@@ -1,3 +1,4 @@
+## Given an integer N, show the multiplication table. 
 ```.py
 # Function that prints the multiplication table
 def tableM(number):
