@@ -12,3 +12,4 @@ out = BigNeighbour((1,2,3,5,6))
 print(out)
 ```
 ![](quiz_pic010.png)
+![](flow_diagram10)
