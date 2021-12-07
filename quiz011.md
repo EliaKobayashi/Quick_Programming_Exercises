@@ -8,5 +8,5 @@ def samefirstlast(list):
 a=samefirstlast([1,2,3,1])
 print(a)
 ```
-![](quizpic11.png)
+![](quiz_pic11.png)
 ![](flow_diagram11)
