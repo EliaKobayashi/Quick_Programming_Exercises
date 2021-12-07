@@ -1,3 +1,4 @@
+## Output TRUE if the given string begins with 'mix', except the 'm' can be anything, so 'pix', '9ix'..., all count.
 ```.py
 def MixStart(phrase):
     # Function to check if mix is in the input but the first letter doesn't matter
