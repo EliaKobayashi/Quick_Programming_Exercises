@@ -7,8 +7,6 @@ def samefirstlast(list):
     return a
 a=samefirstlast([1,2,3,1])
 print(a)
-b=samefirstlast([1,2,3])
-print(b)
 ```
 ![](quizpic11.png)
 ![](flow_diagram11)
