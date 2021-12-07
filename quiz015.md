@@ -1,3 +1,5 @@
+## Reverse Mode: Given the input/outputs shown, create the program that produces the output. 
+![](table_2.png)
 ```.py
 def reverseMode(inp):
     first = str((int(inp[0])*4+int(inp[1])*2+int(inp[2])*1))
