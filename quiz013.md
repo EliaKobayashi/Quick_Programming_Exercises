@@ -1,3 +1,5 @@
+## Given an array of food items and price, calculate the total price based on the table of tax categories below
+![](table_1.png)
 ```.py
 # Taxing products and then calculating the total price
 def TaxCalc(items, price):
