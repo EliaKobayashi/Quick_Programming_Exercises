@@ -1,3 +1,4 @@
+## Given an list of words, find the average word length.
 ```.py
 def wordlength(list):
     a=0
