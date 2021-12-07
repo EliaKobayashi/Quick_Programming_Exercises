@@ -1,3 +1,4 @@
+## Given a string, create a function that outputs each letter with its index
 ```.py
 # Function 
 def letter(word : str):
