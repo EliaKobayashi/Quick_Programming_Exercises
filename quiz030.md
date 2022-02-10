@@ -25,5 +25,4 @@ class broken_quiz:
 test_case = broken_quiz(code=" oworllledH!", seq="SSEEESESSESE")
 print(test_case.solve())
 ```
-
 ![](quiz_pic30.png)
