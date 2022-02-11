@@ -13,4 +13,4 @@ class countLetter:
 output = countLetter(text="The world is vast, vast", letter="a")
 print(output.counting())
 ```
-![](quiz_pic31.png)
+![](quiz_pic32.png)
