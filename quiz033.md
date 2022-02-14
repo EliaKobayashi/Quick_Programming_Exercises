@@ -41,6 +41,8 @@ class Battery:
     def charge_bat(self,new_value):
         self.charge_level = new_value
 
+    def __repr__(self):
+        return f"<This is a Battery> size {self.size} charge {self.charge_level}"
 
 vehicle_object = vehicle('honda', 'Ridgeline', 'Truck')
 a_subaru = vehicle('Subaru','Forester', 'Crossover')
@@ -51,5 +53,20 @@ print(my_tesla.battery.get_charge())
 my_tesla.charge_car(50)
 my_tesla.battery.charge_bat(50)
 print(my_tesla.battery.get_charge())
+
+#create a battery
+replacement_bat= Battery()
+print(replacement_bat.get_charge())
+
+import random
+Stock_bats = []
+for i in range(100):
+    a_battery = Battery(size=random.randint(10,100))
+    Stock_bats.append(a_battery)
+    print(a_battery)
+
+for i in range(100):
+    Stock_bats[i].charge_bat(50)
+    print(f"Charge level for battery {i} is {Stock_bats[i].get_charge()}")
 ```
-![](quiz_pic33.png)
+![](quiz_pic033.png)
