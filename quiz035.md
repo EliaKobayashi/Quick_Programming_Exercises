@@ -1,4 +1,7 @@
 ```.py
+''' 
+A programme to calculate number of matches Lily needs to use to eescape the tiger
+'''
 class Lily:
     def __init__(self, meters, seconds):
         self.meters=meters
