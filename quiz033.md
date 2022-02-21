@@ -1,4 +1,7 @@
 ```.py
+''' 
+Inheritance to check the model, brand, bettery charge, etc.
+'''
 class vehicle:
     def __init__(self, brand, model, type):
         self.brand =brand
