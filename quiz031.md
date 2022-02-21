@@ -1,6 +1,9 @@
 ```.py
+''' 
+programme for location of a person
+'''
 class User:
-    # his is class for quiz31
+    ''' this is the class for quiz31'''
     def __init__(my_user, name: str, username: str, information: str, location: list = None):
         my_user.name = name
         my_user.username = username
