@@ -1,4 +1,4 @@
-'''.py
+```.py
 class polygon:
     ''' this class is for polygons'''
     def __init__(self, no_of_sides):
@@ -29,5 +29,5 @@ class triangle(polygon):
 triangle=triangle(3)
 triangle.inputSides()
 print(triangle.area())
-'''
+```
 ![](quiz_pic34.png)
