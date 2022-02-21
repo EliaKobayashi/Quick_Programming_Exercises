@@ -1,4 +1,7 @@
 ```.py
+''' 
+how many of one letter is in an input
+'''
 class countLetter:
     def __init__(self, text:str, letter:str):
         self.text=text
