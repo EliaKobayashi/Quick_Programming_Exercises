@@ -1,4 +1,7 @@
 ```.py
+'''
+mixes words according to the input
+'''
 class broken_quiz:
     def __init__(self, code:str, seq:str):
         self.code = code
