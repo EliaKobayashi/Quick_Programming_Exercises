@@ -86,4 +86,4 @@ my_airbus.charge_airplane(50)
 my_airbus.fuel.charge_fuel(50)
 print(my_airbus.fuel.get_fuel_level())
 ```
-![](homework_inheritance_pic)
+![](homework_inheritance_pic.png)
