@@ -218,4 +218,6 @@ MDFloatLayout:
         pos_hint: {'center_x': .5, 'center_y': .15}
         on_release: app.restart()
 ```
+I followed some code from the following video https://www.youtube.com/watch?v=PAnpsrEOQ4s
+
 ![](tiktaktoe_pic.png)
