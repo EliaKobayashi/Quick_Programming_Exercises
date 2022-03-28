@@ -1,2 +1,2 @@
 
-![](quiz_pic40.png)
+![](quiz_pic40.JPG)
