@@ -7,6 +7,8 @@ class Lily:
         self.meters=meters
         self.seconds=seconds
 
+''' calculation to figure out the answer '''
+
     def matchsticks(self):
         import math
         seconds2 = self.seconds / 100
