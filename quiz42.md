@@ -1,4 +1,5 @@
 ```.py
+''' def to put automatically create lists in a list '''
 def mapper(num):
     y=[]
     for i in range(1,num + 1):
