@@ -8,6 +8,7 @@ class countLetter:
         self.letter=letter
     def counting(self):
         answer = 0
+        ''' for loop to check the letters in the inputted phrase '''
         for i in range(len(self.text)):
             if self.text[i] == self.letter:
                 answer += 1
