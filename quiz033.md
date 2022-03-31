@@ -9,11 +9,11 @@ class vehicle:
         self.type=type
         self.gas_tank_size=14
         self.fuel_level=0
-
+''' upgrade the amount of fuel ''' 
     def fuel_up(self):
         self.fuel_level=self.gas_tank_size
         print('Gas tank is now full.')
-
+''' drive the vehicle '''
     def drive(self):
         print(f"the {self.model} is now driving.")
 
@@ -22,7 +22,7 @@ class ElectricVehicle(vehicle):
         super().__init__(brand,model,type)
         self.battery=Battery()
         self.charge_level=0
-
+''' charge the battery of the vehicle '''
     def charge_car(self, new_value):
         self.battery.charge_bat(new_value)
         print('The vehicle is now charged.')
@@ -35,12 +35,21 @@ class Battery:
     def __init__(self, size:int = 20):
         self.size=size
         self.charge_level = 0
+        
+''' get the amount of battery in the vehicle''''       
+ 
     def get_charge(self):
         #this method returns the current charge level
         return self.charge_level
+
+''' get the range the vehicle has drived '''
+
     def get_range(self):
         #This method returns an estimate of the km that the car can drive
         return 10*self.charge_level
+
+''' charge the battery of the vehicle '''
+
     def charge_bat(self,new_value):
         self.charge_level = new_value
 
