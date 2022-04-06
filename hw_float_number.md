@@ -13,3 +13,7 @@ result = one + two
 print(result)
 ```
 ![](decimal_hw_pic.png)
+
+Citation:
+
+*, N. (2019, August 18). Why 0.1 + 0.2 does not equal to 0.3? Grow Together By Sharing Knowledge. Retrieved April 6, 2022, from https://techtalkbook.com/why-0-1-0-2-does-not-equal-0-3/ 
