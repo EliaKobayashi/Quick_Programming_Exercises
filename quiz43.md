@@ -77,6 +77,6 @@ ScreenManager:
         on_release:
             root.parent.current = "LoginScreen"
 ```
-![](Screen Shot 2022-04-08 at 11.20.58.png)
-![](Screen Shot 2022-04-08 at 11.21.44.png)
-![](Screen Shot 2022-04-08 at 11.20.58.png)
+![](quiz43_pic1.png)
+![](quiz43_pic2.png)
+![](quiz43_pic3.png)
