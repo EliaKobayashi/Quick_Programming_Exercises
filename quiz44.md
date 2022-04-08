@@ -9,3 +9,4 @@ for i in range(len(num)):
 print(num)
 ```
 ![](quiz_pic44.png)
+![](IMG_B34189265A75-1.jpeg)
