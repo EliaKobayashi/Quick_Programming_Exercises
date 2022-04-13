@@ -2,6 +2,7 @@
 import sqlite3
 ''' Class to create a table that details variables about an electric car '''
 class my_database():
+    '''This is to connect to sqlite3'''
     def __init__(self, db_name):
         self.name = db_name
         self.connection = sqlite3.connect(self.name)
