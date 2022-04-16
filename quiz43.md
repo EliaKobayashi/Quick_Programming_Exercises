@@ -1,5 +1,32 @@
 ```.py
 ''' Application that follows the arrows in quiz43'''
+'''Python code'''
+from kivy.metrics import dp
+from kivymd.app import MDApp
+from kivymd.uix.screen import MDScreen
+
+class MainScreen(MDScreen):
+    pass
+
+class LoginScreen(MDScreen):
+    pass
+
+class NewItemScreen(MDScreen):
+    pass
+
+class Screen(MDScreen):
+    pass
+
+
+class quiz43(MDApp):
+    def build(self):
+        return
+
+
+
+m = quiz43()
+m.run()
+'''KivyMD code'''
 ScreenManager:
     id: scr_manager
 
