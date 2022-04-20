@@ -21,4 +21,4 @@ def narcissistic(num1, num2):
 print(narcissistic(1,154))
 print(narcissistic(2,370))
 ```
-![](quiz46.png)
+![](quiz46_pic.png)
